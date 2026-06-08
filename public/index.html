@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ENEM Natureza Analytics</title>
+    <meta name="description" content="Consulta e análise de questões de Ciências da Natureza do ENEM" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script type="module" src="/app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/">ENEM Natureza Analytics</a>
+      <nav>
+        <a href="/">Questões</a>
+        <a href="/analytics">Painel analítico</a>
+        <a href="/access">Acesso iPad</a>
+        <a href="/api/questions">API</a>
+      </nav>
+    </header>
+    <main id="app">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Ciências da Natureza · ENEM</p>
+          <h1>Consulta, filtros e análise pedagógica de questões do ENEM</h1>
+          <p>Se você está vendo esta versão estática, o servidor da aplicação ainda não foi iniciado. Rode <code>npm run dev</code> na raiz do projeto e acesse <code>http://localhost:3000</code>.</p>
+          <div class="hero-actions"><a href="/api/questions">Testar API</a><a href="/analytics">Abrir painel</a></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

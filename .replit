@@ -1,0 +1,6 @@
+run = "npm run dev"
+entrypoint = "src/server.js"
+
+[env]
+HOST = "0.0.0.0"
+PORT = "3000"
